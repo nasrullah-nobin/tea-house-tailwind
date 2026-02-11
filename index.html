@@ -19,8 +19,8 @@
     <main class="max-w-7xl m-auto">
       <section class="grid grid-cols-1 lg:grid-cols-2 mt-14">
         <!-- right side div -->
-        <div class="banner-left space-y-7 text-center lg:text-left">
-          <h1 class="text-[5rem] font-extrabold">
+        <div class="space-y-7 text-center lg:text-left">
+          <h1 class="text-7xl font-extrabold">
             It's good <br />
             tea time at The Tea House
           </h1>
@@ -35,7 +35,7 @@
           </button>
         </div>
         <div
-          class="banner-right flex justify-center lg:justify-end lg:items-end relative sm:mt-5"
+          class="flex justify-center lg:justify-end lg:items-end relative sm:mt-5"
         >
           <img src="images/banner.png" alt="banner-img" />
           <div
@@ -196,7 +196,7 @@
             <p class="text-gray-400 mt-3">Businessman</p>
           </div>
           <div
-            class="bg-white p-11 rounded-lg absolute max-w-[454px] -left-[130px] bottom-[113px] z-10"
+            class="bg-white p-11 rounded-lg absolute w-md -left-[130px] bottom-[113px] z-10"
           >
             <div class="absolute -left-2 -top-6 bg-white p-1 rounded-full">
               <img src="images/client.png" alt="client image" />
@@ -239,7 +239,9 @@
           believable.
         </p>
         <!-- News box -->
-        <article class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 text-left">
+        <article
+          class="grid grid-cols-2 lg:grid-cols-3 gap-6 mt-12 text-left"
+        >
           <div class="border-2 border-gray-300 rounded-xl p-5 max-w-[364px]">
             <img src="images/news-1.png" alt="Events" />
             <p class="text-base font-medium text-gray-400 mt-5">Feb 05, 2027</p>
@@ -248,7 +250,7 @@
               discount
             </h3>
             <p class="text-base font-medium text-gray-400">
-              There are many variations of <br />passages of Lorem Ipsum
+              There are many variations of passages of <br />Lorem Ipsum
               available.
             </p>
             <p class="font-bold">Learn More</p>
@@ -261,8 +263,8 @@
               discount
             </h3>
             <p class="text-base font-medium text-gray-400">
-              There are many variations of <br />passages of Lorem Ipsum
-              available.
+              There are many variations of passages of<br />
+              Lorem Ipsum available.
             </p>
             <p class="font-bold">Learn More</p>
           </div>
@@ -274,13 +276,93 @@
               discount
             </h3>
             <p class="text-base font-medium text-gray-400">
-              There are many variations of <br />passages of Lorem Ipsum
-              available.
+              There are many variations of passages of<br />
+              Lorem Ipsum available.
             </p>
             <p class="font-bold">Learn More</p>
           </div>
         </article>
       </section>
     </main>
+    <footer class="bg-[#FFEFE9] mt-32 py-32 text-center">
+   <div class="max-w-7xl m-auto">
+       <div class="flex justify-between gap-5 mb-24 p-7">
+        <div>
+          <img src="images/cup.png" alt="bg_cup" />
+        </div>
+        <div class="flex items-center gap-10">
+          <p class="text-xl text-gray-500">Ready to get started?</p>
+          <button
+            class="text-xl py-4 px-6 bg-linear-to-r from-[#FF8938] to-[#FF0000] text-white rounded-[10px]"
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-left p-7">
+        <div>
+          <h5 class="text-xl font-semibold mb-5">Quick Links</h5>
+          <ul class="space-y-5">
+            <li><a class="text-base text-gray-400" href="#">Home</a></li>
+            <li><a class="text-base text-gray-400" href="#">About Us</a></li>
+            <li><a class="text-base text-gray-400" href="#">Insurance</a></li>
+            <li>
+              <a class="text-base text-gray-400" href="#">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="text-xl font-semibold mb-5">Our Service</h5>
+          <ul class="space-y-5">
+            <li>
+              <a class="text-base text-gray-400" href="#">Life Insurance</a>
+            </li>
+            <li>
+              <a class="text-base text-gray-400" href="#">Car Insurance</a>
+            </li>
+            <li>
+              <a class="text-base text-gray-400" href="#">Health Insurance</a>
+            </li>
+            <li>
+              <a class="text-base text-gray-400" href="#">House Insurance</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="text-xl font-semibold mb-5">Help</h5>
+          <ul class="space-y-5">
+            <li><a class="text-base text-gray-400" href="#">FAQs</a></li>
+            <li><a class="text-base text-gray-400" href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="">
+          <h5 class="text-2xl font-semibold mb-5">
+            Subscribe to our <br />
+            newsletter
+          </h5>
+          <div class="flex gap-2">
+            <input
+              class="outline-none border-b"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="Email address"
+            />
+           <div class="w-8 h-8 bg-linear-to-r from-[#FF8938] to-[#FF0000] rounded-full flex justify-center">
+             <img src="images/arroww.png" alt="arrow">
+           </div>
+          </div>
+          <div class="flex items-center gap-6 mt-12">
+            <span><img src="images/fb.png" alt="facebook" /></span>
+            <span><img src="images/x.png" alt="tweeter" /></span>
+            <span><img src="images/ins.png" alt="instagram" /></span>
+          </div>
+        </div>
+      </div>
+      <p class="text-gray-500 mt-24">
+        © 2027 UIDesign.to - All rights reserved.
+      </p>
+   </div>
+    </footer>
   </body>
 </html>
